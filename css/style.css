@@ -107,8 +107,17 @@ img {
     object-position: 80% 0%;
 }
 
-.feature {
-    flex-direction: column;
+.feature .title-2 {
+ text-align: center;
+}
+
+.highlight {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.highlight div {
+    margin-top: 1rem;
 }
 
 
