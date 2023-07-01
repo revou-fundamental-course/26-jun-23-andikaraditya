@@ -115,7 +115,7 @@ header h1 {
 
 .home {
     margin: 1rem 2rem;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
 }
 
