@@ -120,6 +120,11 @@ img {
     margin-top: 1rem;
 }
 
+.closing {
+    flex-direction: column;
+    align-items: center;
+}
+
 
 @media (max-width:900px) {
     .home {
