@@ -86,3 +86,37 @@ header .title {
     max-width: 600px;
     background-color: aqua;
 }
+
+.home {
+    margin: 1rem 3rem;
+}
+
+.home div {
+    margin: 0 1rem;
+}
+
+.home .article {
+    flex-basis: 60%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    object-position: 80% 0%;
+}
+
+.feature {
+    flex-direction: column;
+}
+
+
+@media (max-width:900px) {
+    .home {
+        flex-direction: column;
+    }
+    .home div{
+        margin-top: 1rem;
+    }
+}
