@@ -5,22 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header>
         <div class="container navigation">
-            <div> LOREM </div>
+            <div id="logo">Pigeon Point</div>
             <nav>
-                <a href="">Home</a>
-                <a href="">Our Package</a>
-                <a href="">Contact</a>
+                <a href="#main-title">Home</a>
+                <a href="#feature">Our Package</a>
+                <a href="#closing">Contact</a>
             </nav>
         </div>
-        <div class="container title">
-            <h1 id="main-title"> LOREM IPSUM </h1>
-            <div id="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex delectus natus consectetur adipisci accusantium aspernatur minima enim ipsum, assumenda suscipit quae architecto quibusdam, dignissimos repudiandae velit dolorem commodi minus expedita!</div>
+        <div class="title">
+            <h1 id="main-title">Pigeon Point Lighthouse</h1>
+            <div class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex delectus natus consectetur adipisci accusantium aspernatur minima enim ipsum, assumenda suscipit quae architecto quibusdam, dignissimos repudiandae velit dolorem commodi minus expedita!</div>
         </div>
     </header>
     <section class="container home">
@@ -32,34 +35,36 @@
             <div> Contact Us </div>
             <div> Sales akan menghubungi anda dalam 1x24 jam. </div>
             <form action="">
-                <div> 
+                <div>
                     <label for="name"> Your name: </label>
                 </div>
                 <div>
                     <input type="text" id="name" placeholder="First and Last name">
                 </div>
-                <div> 
+                <div>
                     <label for="email"> Your name: </label>
                 </div>
-                <div> 
-                    <input type="email" id="email" placeholder="example@email.com"></div>
+                <div>
+                    <input type="email" id="email" placeholder="example@email.com">
+                </div>
                 <div>
                     <label for="selection">what are you intersted in?</label>
                 </div>
-                <div>                    
+                <div>
                     <select name="" id="selection">
-                    <option value="opt1">Option 1</option>
-                    <option value="opt2">Option 2</option>
-                    <option value="opt3">Option 3</option>
-                    <option value="opt4">Option 4</option>
-                </select></div>
+                        <option value="opt1">Option 1</option>
+                        <option value="opt2">Option 2</option>
+                        <option value="opt3">Option 3</option>
+                        <option value="opt4">Option 4</option>
+                    </select>
+                </div>
                 <div><button>SEND</button></div>
             </form>
         </div>
     </section>
     <section class="feature">
         <div class="title-2">
-            <h2>Our Package</h2>
+            <h2 id="feature">Our Package</h2>
         </div>
         <div class="container highlight">
             <div>
@@ -91,7 +96,7 @@
         </div>
     </section>
     <section class="container closing">
-        <h2>Your Closing Argument Headline</h2>
+        <h2 id="closing">Your Closing Argument Headline</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga perferendis sunt ut nostrum, et eligendi non aperiam. Modi molestias, corporis libero nostrum totam explicabo sequi sit fugit, ipsum fugiat ea.</p>
         <button>CALL TO ACTION</button>
     </section>

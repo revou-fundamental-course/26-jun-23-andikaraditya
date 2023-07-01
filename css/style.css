@@ -58,28 +58,54 @@ table {
 }
 
 header {
-    padding: 20px 50px;
+    margin: 1.5rem 2rem;
+}
 
+#logo {
+    padding-left: 1rem;
+    font-size: 2rem;
+    letter-spacing: 0.26rem;
+    font-family: 'Lobster', cursive;
 }
 
 header .navigation {
     justify-content: space-between;
-    background-color: aqua;
+    align-items: center;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid black;
 }
 
 header nav {
     padding: 1rem;
     border: 1px solid black;
+    border-radius: 0.3rem;
 }
 header nav a{
-    margin: auto;
-    border-right: 1px solid black;
+    margin: 0 1rem;
+    text-decoration: none;
+    color: black;
 }
 
 header .title {
     margin: 3rem 0;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+header .subtitle {
+    margin: auto;
+    max-width: 50%;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    color: rgb(97, 97, 97);
+}
+
+header h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
 }
 
 #subtitle {
@@ -123,6 +149,7 @@ img {
 .contact-form div:nth-of-type(2) {
     font-weight: normal;
     width: 80%;
+    color: rgb(97, 97, 97);
 }
 
 
