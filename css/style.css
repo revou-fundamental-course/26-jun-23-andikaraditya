@@ -170,6 +170,22 @@ form button {
     color: white;
 }
 
+.feature {
+    margin: 2rem 2rem;
+    padding: 1rem;
+}
+
+.feature .title-2 {
+    padding: 3rem 0;
+    background-color: #EDF0F4;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .feature .title-2 {
  text-align: center;
 }
@@ -180,7 +196,7 @@ form button {
 }
 
 .highlight div {
-    margin-top: 1rem;
+    margin: 1.5rem 0;
 }
 
 .closing {
