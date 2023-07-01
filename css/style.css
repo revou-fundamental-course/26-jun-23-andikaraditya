@@ -88,7 +88,9 @@ header .title {
 }
 
 .home {
-    margin: 1rem 3rem;
+    margin: 1rem 2rem;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .home div {
@@ -105,6 +107,40 @@ img {
     aspect-ratio: 3/2;
     object-fit: cover;
     object-position: 80% 0%;
+}
+
+.contact-form {
+    background-color: #EDF0F4;
+    border-radius: 0.4rem;
+    padding: 3rem 2rem;
+}
+
+.contact-form div {
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.contact-form div:nth-of-type(2) {
+    font-weight: normal;
+    width: 80%;
+}
+
+
+form input, form select {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+
+form button {
+    width: 15rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    background-color: rgb(54, 54, 54);
+    border: 1px solid black;
+    color: white;
 }
 
 .feature .title-2 {
