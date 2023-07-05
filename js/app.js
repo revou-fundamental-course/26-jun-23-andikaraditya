@@ -20,7 +20,8 @@ function changeImg(){
 function validateForm() {
 	let x = document.forms["myForm"]["fname"].value;
 	let y = document.forms["myForm"]["email"].value;
-	if (x == "" || y =="") {
+	let z = document.forms["myForm"]["phone"].value;
+	if (x == "" || y =="" || z == "") {
 	  alert("Form must be filled out");
 	  return false;
 	}
