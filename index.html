@@ -33,7 +33,7 @@
             <!-- <img src="./img/courtney-corlew-l5b_Jd8Ttfg-unsplash.jpg" alt=""> -->
             <img name="slide">
             <div class="caption">
-                "Escape to the timeless allure of Pigeon Point Lighthouse – where a cherished coastal getaway meets the rich history of a true maritime landmark."
+                "Escape to the timeless allure of Pigeon Point Lighthouse - where a cherished coastal getaway meets the rich history of a true maritime landmark."
             </div>
             <div class="reviews">
                 <span>4.5 <span class="stars">&#9733;</span></span> - 429 reviews on Tripadvisory!
@@ -43,33 +43,33 @@
             </div>
         </div>
         <div class="contact-form">
-            <div> Reservation </div>
+            <div id="contact-form"> Reservation </div>
             <div> Don't miss your trip, book us now! </div>
-            <form action="">
+            <form name="myForm" onsubmit="return validateForm()" method="post">
                 <div>
                     <label for="name"> Your name: </label>
                 </div>
                 <div>
-                    <input type="text" id="name" placeholder="First and Last name">
+                    <input type="text" id="name" name="fname" placeholder="First and Last name">
                 </div>
                 <div>
-                    <label for="email"> Your name: </label>
+                    <label for="email"> Email: </label>
                 </div>
                 <div>
-                    <input type="email" id="email" placeholder="example@email.com">
+                    <input type="email" id="email" name="email" placeholder="example@email.com">
                 </div>
                 <div>
                     <label for="selection">What are you intersted in?</label>
                 </div>
                 <div>
-                    <select name="" id="selection">
+                    <select name="option" id="selection">
                         <option value="opt1">Stays</option>
                         <option value="opt2">Guided tours</option>
                         <option value="opt3">Coastal hike</option>
                         <option value="opt4">Deluxe &#40;includes all&#41;</option>
                     </select>
                 </div>
-                <div><button>SEND</button></div>
+                <div><input type="submit" value="Submit"></div>
             </form>
         </div>
     </section>
@@ -130,7 +130,7 @@
     <section class="container closing">
         <h2 id="closing">Your Closing Argument Headline</h2>
         <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga perferendis sunt ut nostrum, et eligendi non aperiam. Modi molestias, corporis libero nostrum totam explicabo sequi sit fugit, ipsum fugiat ea.</div>
-        <button>CALL TO ACTION</button>
+        <button><a href="#contact-form">CALL TO ACTION</a></button>
     </section>
     <script src="./js/app.js"></script>
 </body>

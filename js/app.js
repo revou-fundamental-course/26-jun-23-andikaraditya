@@ -17,5 +17,14 @@ function changeImg(){
 	setTimeout("changeImg()", 5000);
 }
 
+function validateForm() {
+	let x = document.forms["myForm"]["fname"].value;
+	let y = document.forms["myForm"]["email"].value;
+	if (x == "" || y =="") {
+	  alert("Form must be filled out");
+	  return false;
+	}
+  }
+
 // Run function when page loads
 window.onload=changeImg;
